@@ -14,6 +14,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text("demo")
+            Button("Sign In", action: {
+                print("Is it printed ?")
+            })
         }
         .padding()
     }
